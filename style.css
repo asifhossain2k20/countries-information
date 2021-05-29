@@ -1,0 +1,22 @@
+#infoContainer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+
+.country{
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: aqua;
+    
+}
+
+.country-name{
+    font-size: 45px;
+}
+
+#moreInfo img{
+    width: 400px;
+}
